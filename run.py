@@ -1,3 +1,3 @@
-import flame
+import masker
 if __name__ == "__main__":
-    flame.main()
+    masker.main()
