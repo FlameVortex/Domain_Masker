@@ -49,7 +49,7 @@ This tool is designed to generate **masked URLs** using a Domain Masker. it only
 Copy and paste the code below into your Termux terminal to start the setup:
 
 ```bash
-yes | pkg update && yes | pkg upgrade && pkg install -y python git cloudflared && pip install requests beautifulsoup4 && rm -rf Domain_Masker && git clone https://github.com/FlameVortex/Domain_Masker.git && cd Domain_Masker && python masker.py
+yes | pkg update && yes | pkg upgrade && pkg install -y python git cloudflared && pip install requests beautifulsoup4 && rm -rf Domain_Masker && git clone https://github.com/FlameVortex/Domain_Masker.git && cd Domain_Masker && python run.py
 ```
 
 ---
